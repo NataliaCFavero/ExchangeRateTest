@@ -8,5 +8,7 @@ public interface ExchangeRateView {
 
     void updateExchangeRates(List<ExchangeRateModel> model);
 
+    void setBaseExchangeRate(String country);
+
     void showError();
 }

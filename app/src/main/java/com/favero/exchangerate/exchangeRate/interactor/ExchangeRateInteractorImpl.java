@@ -1,8 +1,6 @@
 package com.favero.exchangerate.exchangeRate.interactor;
 
 
-import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 
 import com.favero.exchangerate.exchangeRate.presenter.ExchangeRatePresenter;
@@ -38,7 +36,6 @@ public class ExchangeRateInteractorImpl implements ExchangeRateInteractor {
                 @Override
                 public void onResponse(Call<ExchangeRateResponse> call, Response<ExchangeRateResponse> response) {
                     if (response.isSuccessful()) {
-                        System.out.println("Updating...........");
                         presenter.updateExchangeRates(response.body() != null ? response.body() : new ExchangeRateResponse());
                     }
                 }

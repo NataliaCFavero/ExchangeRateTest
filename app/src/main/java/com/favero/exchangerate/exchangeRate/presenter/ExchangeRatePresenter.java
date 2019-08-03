@@ -1,10 +1,9 @@
 package com.favero.exchangerate.exchangeRate.presenter;
 
-import com.favero.exchangerate.exchangeRate.Model.ExchangeRateModel;
-
-import java.util.List;
+import com.favero.exchangerate.exchangeRate.model.ExchangeRateResponse;
 
 public interface ExchangeRatePresenter {
 
-    void updateExchangeRates(List<ExchangeRateModel> model);
+    void updateExchangeRates(ExchangeRateResponse model);
+    void showError();
 }

@@ -1,10 +1,12 @@
 package com.favero.exchangerate.exchangeRate.presentation;
 
-import com.favero.exchangerate.exchangeRate.Model.ExchangeRateModel;
+import com.favero.exchangerate.exchangeRate.model.ExchangeRateModel;
 
 import java.util.List;
 
-public interface ExchangeRateInteractorView {
+public interface ExchangeRateView {
 
     void updateExchangeRates(List<ExchangeRateModel> model);
+
+    void showError();
 }

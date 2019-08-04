@@ -33,4 +33,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //Unit Tests
+    testImplementation "org.mockito:mockito-core:2.+"
+    testImplementation "com.squareup.okhttp:mockwebserver:2.7.0"
+    testImplementation 'org.json:json:20180130'
 }

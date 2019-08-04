@@ -86,9 +86,8 @@ public class ExchangeRatePresenterImpl implements ExchangeRatePresenter {
             list.add(countryMYR);
 
             view.updateExchangeRates(list);
+            view.setBaseExchangeRate(model.getBase());
         }
-
-        view.setBaseExchangeRate(model.getBase());
 
     }
 

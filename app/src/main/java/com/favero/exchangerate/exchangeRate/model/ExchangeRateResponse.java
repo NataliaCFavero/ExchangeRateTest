@@ -25,6 +25,18 @@ public class ExchangeRateResponse {
         return date;
     }
 
+    public void setRates(Rates rates) {
+        this.rates = rates;
+    }
+
+    public void setBase(String base) {
+        this.base = base;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
     public class Rates {
         @Expose
         Double CAD;
@@ -248,6 +260,134 @@ public class ExchangeRateResponse {
 
         public Double getMYR() {
             return MYR;
+        }
+
+        public void setCAD(Double CAD) {
+            this.CAD = CAD;
+        }
+
+        public void setHKD(Double HKD) {
+            this.HKD = HKD;
+        }
+
+        public void setISK(Double ISK) {
+            this.ISK = ISK;
+        }
+
+        public void setPHP(Double PHP) {
+            this.PHP = PHP;
+        }
+
+        public void setDKK(Double DKK) {
+            this.DKK = DKK;
+        }
+
+        public void setHUF(Double HUF) {
+            this.HUF = HUF;
+        }
+
+        public void setCZK(Double CZK) {
+            this.CZK = CZK;
+        }
+
+        public void setAUD(Double AUD) {
+            this.AUD = AUD;
+        }
+
+        public void setRON(Double RON) {
+            this.RON = RON;
+        }
+
+        public void setSEK(Double SEK) {
+            this.SEK = SEK;
+        }
+
+        public void setIDR(Double IDR) {
+            this.IDR = IDR;
+        }
+
+        public void setINR(Double INR) {
+            this.INR = INR;
+        }
+
+        public void setBRL(Double BRL) {
+            this.BRL = BRL;
+        }
+
+        public void setRUB(Double RUB) {
+            this.RUB = RUB;
+        }
+
+        public void setHRK(Double HRK) {
+            this.HRK = HRK;
+        }
+
+        public void setJPY(Double JPY) {
+            this.JPY = JPY;
+        }
+
+        public void setTHB(Double THB) {
+            this.THB = THB;
+        }
+
+        public void setCHF(Double CHF) {
+            this.CHF = CHF;
+        }
+
+        public void setSGD(Double SGD) {
+            this.SGD = SGD;
+        }
+
+        public void setPLN(Double PLN) {
+            this.PLN = PLN;
+        }
+
+        public void setBGN(Double BGN) {
+            this.BGN = BGN;
+        }
+
+        public void setTRY(Double TRY) {
+            this.TRY = TRY;
+        }
+
+        public void setCNY(Double CNY) {
+            this.CNY = CNY;
+        }
+
+        public void setNOK(Double NOK) {
+            this.NOK = NOK;
+        }
+
+        public void setNZD(Double NZD) {
+            this.NZD = NZD;
+        }
+
+        public void setZAR(Double ZAR) {
+            this.ZAR = ZAR;
+        }
+
+        public void setUSD(Double USD) {
+            this.USD = USD;
+        }
+
+        public void setMXN(Double MXN) {
+            this.MXN = MXN;
+        }
+
+        public void setILS(Double ILS) {
+            this.ILS = ILS;
+        }
+
+        public void setGBP(Double GBP) {
+            this.GBP = GBP;
+        }
+
+        public void setKRW(Double KRW) {
+            this.KRW = KRW;
+        }
+
+        public void setMYR(Double MYR) {
+            this.MYR = MYR;
         }
     }
 }

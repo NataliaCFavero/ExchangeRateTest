@@ -1,6 +1,6 @@
 # Exchange Rate Project
 
-It is App that display exchange rate variation every one minute.
+It an App that display exchange rate variation every one minute.
 
 ### Techologies
 - Java 8
